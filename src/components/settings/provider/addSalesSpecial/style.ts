@@ -1,0 +1,286 @@
+import { StyleSheet } from 'react-native';
+import COLORS from 'utils/colors';
+import FONTS from 'utils/fonts';
+import { padding } from 'utils/styles';
+
+export const styles = StyleSheet.create({
+  scrollView: {
+    flex: 1,
+    flexGrow: 1,
+    paddingBottom: 40,
+  },
+  content: {
+    flexGrow: 1,
+    justifyContent: 'space-between',
+    paddingTop: 16,
+    paddingHorizontal: 32,
+    paddingBottom: 50,
+  },
+  pickerContent: {
+    flexGrow: 1,
+    justifyContent: 'space-between',
+    paddingTop: 16,
+    paddingHorizontal: 32,
+    paddingBottom: 50,
+  },
+  saveButton: {
+    // alignSelf: 'flex-end',
+    width: 146,
+    marginTop: 48,
+  },
+  confirmButton: {
+    alignSelf: 'flex-end',
+    width: 140,
+    marginTop: 48,
+  },
+  cancelButton: {
+    alignSelf: 'flex-end',
+    width: 140,
+    marginTop: 48,
+    backgroundColor: COLORS.orangeRed
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 56,
+    paddingHorizontal: 16,
+    borderBottomWidth: 1,
+    borderColor: COLORS.whiteGray,
+    borderTopRightRadius: 20,
+    borderTopLeftRadius: 20,
+  },
+  iconedInput: {
+    height: 42,
+    ...padding(12, 12, 12, 23),
+  },
+  textPrimary: {
+    fontFamily: FONTS.bold,
+    color: COLORS.black,
+    fontSize: 14,
+    lineHeight: 20,
+  },
+  textSecondary: {
+    fontFamily: FONTS.book,
+    color: COLORS.black,
+    fontSize: 14,
+    lineHeight: 20,
+  },
+  checkBoxPosition: {
+    marginTop: 16,
+  },
+  selectedImage: {
+    marginRight: 8,
+    borderRadius: 5,
+  },
+  image: {
+    borderRadius: 5,
+    width: 100,
+    height: 80,
+    resizeMode: 'cover',
+  },
+  bannerContainer: {
+    overflow: 'hidden',
+    alignItems: 'center', 
+    flexDirection: 'row', 
+    backgroundColor: COLORS.black80, 
+    width: "100%",
+    height: "auto",
+    aspectRatio: 3 / 1.8,
+    borderRadius: 7,
+  },
+  upperOfferContainer: {
+    width: "45%", 
+    height: '100%', 
+    paddingLeft: 20,
+    justifyContent: 'center', 
+  },
+  offerHeadingText: { 
+    color: COLORS.white, 
+    fontFamily: FONTS.book, 
+    fontSize: 20 
+  },
+  offerSubHeadingText: { 
+    color: COLORS.white, 
+    fontFamily: FONTS.book, 
+    fontSize: 14
+  },
+  bannerImageConainer: { 
+    width: "55%", 
+    height: '80%', 
+    overflow: 'hidden',  
+    justifyContent: 'center', 
+    borderTopLeftRadius: 100, 
+    borderBottomLeftRadius: 100, 
+    backgroundColor: COLORS.orange, 
+  },
+  bannerImage: {
+    width: "100%",
+    height: "100%",
+    // aspectRatio: 4 / 3,
+    // borderRadius: 7,
+  },
+  containerEdit: {
+    position: 'absolute',
+    right: 0,
+    top: 1,
+    width: 22,
+    height: 22,
+  },
+  imagesList: {
+    marginTop: 16,
+    marginBottom: 28,
+  },
+  centeredView: {
+    flex: 1,
+    backgroundColor: COLORS.backgroundModal,
+    padding: 24,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalView: {
+    width: '100%',
+    height: '40%',
+    borderRadius: 20,
+    backgroundColor: COLORS.white,
+    shadowColor: COLORS.black,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  posHeader: {
+    padding: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: COLORS.whiteTwo,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  closeImage: {
+    width: 24,
+    height: 24,
+    resizeMode: 'contain',
+  },
+  titleNewService: {
+    fontSize: 18,
+    fontFamily: FONTS.bold,
+  },
+  titleNewCenter: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  businessLogo: {
+    width: "100%",
+    // height: 130,
+    height: "auto",
+    aspectRatio: 4 / 3,
+    borderRadius: 7,
+    // resizeMode: 'contain',
+  },
+  editIcon: {
+    position: 'absolute',
+    right: -5,
+    bottom: -5,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 20,
+    height: 20,
+    backgroundColor: COLORS.clearBlue,
+    borderRadius: 10,
+  },
+  filepicker: {
+    width: '100%',
+    height: 130,
+    borderRadius: 7,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: COLORS.clearBlue50,
+    borderStyle: 'dashed',
+  },
+  dayRestrictionList: {
+    borderTopWidth: 1,
+    borderBottomWidth: 1,
+    borderColor: COLORS.whiteTwo,
+    marginVertical: 16,
+    paddingBottom: 16,
+  },
+  chooseModalView: {
+    flex: 1,
+    backgroundColor: COLORS.backgroundModal,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  keyboardStyle: {
+    height: '100%',
+    width: '100%',
+  },
+  chooseView: {
+    width: '90%',
+    // paddingHorizontal: 32,
+    paddingVertical: 24,
+    backgroundColor: COLORS.white,
+    borderRadius: 20,
+  },
+  shadow: {
+    shadowColor: COLORS.black,
+    shadowOffset: {
+      width: 0,
+      height: 0,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 5,
+  },
+  upperContainer: { 
+    justifyContent: 'space-between', 
+    alignItems: 'center', 
+    flexDirection: 'row', 
+    paddingHorizontal: 20, 
+    paddingBottom: 10 
+  },
+  socialView: { 
+    flexDirection: 'row', 
+    justifyContent: 'space-around', 
+    alignItems: 'center' 
+  },
+  closeImage: {
+    width: 24,
+    height: 24,
+    resizeMode: 'contain',
+  },
+  fbButton: {
+    height: 50, width: 50,
+    borderRadius: 25,
+    borderWidth: 1, 
+    justifyContent: 'center', alignItems: 'center',
+    borderColor: COLORS.clearBlue,
+    backgroundColor: COLORS.white,
+  },
+  instaButton: {
+    height: 50, width: 50,
+    borderRadius: 25,
+    borderWidth: 1, 
+    justifyContent: 'center', alignItems: 'center',
+    borderColor: COLORS.orangeRed,
+    backgroundColor: COLORS.white,
+  },
+  twitterButton: {
+    height: 55, width: 55,
+    borderRadius: 55/2,
+    borderWidth: 1, 
+    justifyContent: 'center', alignItems: 'center',
+    borderColor: COLORS.clearBlue50,
+    backgroundColor: COLORS.white,
+  },
+  allButton: {
+    height: 55, width: 55,
+    borderRadius: 55/2,
+    justifyContent: 'center', alignItems: 'center',
+    backgroundColor: COLORS.orange,
+  },
+});

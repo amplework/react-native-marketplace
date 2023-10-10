@@ -1,0 +1,401 @@
+import { StyleSheet } from 'react-native';
+import COLORS from 'utils/colors';
+import FONTS from 'utils/fonts';
+import { padding } from 'utils/styles';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    // backgroundColor: COLORS.whiteFour,
+  },
+  defaultButton: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 70,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    backgroundColor: COLORS.white,
+    borderWidth: 1,
+    borderRadius: 25,
+    borderColor: COLORS.whiteGray,
+  },
+  defaultText: {
+    color: COLORS.white,
+    fontFamily: FONTS.bold,
+  },
+  secondaryButton: {
+    flex: 1,
+    paddingVertical: 12,
+    backgroundColor: COLORS.orange,
+  },
+  navContent: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingVertical: 20,
+    paddingHorizontal: 24,
+    backgroundColor: 'white'
+  },
+  circleButton: {
+    flex: 0,
+    justifyContent: 'center',
+    alignContent: 'center',
+    width: 46,
+    height: 46,
+    borderRadius: 23,
+    padding: 12,
+  },
+  iconImage: {
+    width: 20,
+    height: 20,
+    resizeMode: 'contain',
+  },
+  userName: {
+    fontFamily: FONTS.medium,
+    fontSize: 18,
+    lineHeight: 26,
+  },
+imageConnected: {
+    width: 16,
+    height: 16,
+    resizeMode: 'contain',
+    marginLeft: 8,
+  },
+  phone: {
+    fontFamily: FONTS.book,
+    color: COLORS.brownishGrey,
+    fontSize: 16,
+    lineHeight: 20,
+  },
+  mr16: {
+    marginRight: 16,
+  },
+  mr8: {
+    marginRight: 8,
+  },
+  scroll: {
+    backgroundColor: COLORS.white,
+    height: '100%',
+    minHeight: 55,
+    maxHeight: 55,
+    flex: 1,
+  },
+  scrollContent: {
+    flexGrow: 1,
+  },
+  tab: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    borderBottomWidth: 3,
+    borderColor: COLORS.white,
+  },
+  headerTitle: {
+    paddingVertical: 16,
+    fontSize: 16,
+    textAlign: 'center',
+    fontFamily: FONTS.medium,
+    lineHeight: 20,
+  },
+  activeIndicator: {
+    borderBottomWidth: 3,
+    borderBottomColor: COLORS.orange,
+  },
+  card: {
+    marginBottom: 24,
+    paddingVertical: 20,
+    paddingLeft: 24,
+    backgroundColor: COLORS.white,
+    borderRadius: 7,
+    shadowColor: COLORS.black,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  bookAppointmentContainer: {
+    position: 'absolute',
+    bottom: 0,
+    width: '100%',
+    paddingVertical: 20,
+    paddingHorizontal: 24,
+    backgroundColor: COLORS.white,
+  },
+  bookAppointmentButton: {
+    backgroundColor: COLORS.orange,
+  },
+  list: {
+    marginBottom: 90,
+    paddingVertical: 20,
+    paddingLeft: 24,
+  },
+  content: {
+    flexGrow: 1,
+  },
+  loader: {
+    marginTop: 4,
+    marginBottom: 40,
+  },
+  itemContainer: {
+    height: 250,
+    width: '100%', 
+    paddingRight: 25, 
+    marginVertical: 20,
+    paddingBottom: 10, 
+    borderBottomWidth: 1, 
+    backgroundColor: COLORS.white, 
+    borderBottomColor: COLORS.battleshipGrey32, 
+  },
+  bannerContainer: {
+    borderRadius: 15, 
+    overflow: 'hidden',
+    alignItems: 'center', 
+    flexDirection: 'row', 
+    height: "65%", width: "100%", 
+    backgroundColor: COLORS.black80, 
+  },
+  upperOfferContainer: {
+    width: "50%", 
+    height: '100%', 
+    paddingLeft: 20,
+    justifyContent: 'center', 
+  },
+  offerHeadingText: { 
+    color: COLORS.white, 
+    fontFamily: FONTS.book, 
+    fontSize: 20 
+  },
+  offerSubHeadingText: { 
+    color: COLORS.white, 
+    fontFamily: FONTS.book, 
+    fontSize: 14
+  },
+  bannerImageConainer: { 
+    width: "50%", 
+    height: '80%', 
+    overflow: 'hidden',  
+    justifyContent: 'center', 
+    borderTopLeftRadius: 100, 
+    borderBottomLeftRadius: 100, 
+    backgroundColor: COLORS.orange, 
+  },
+  imageContainer: {
+    overflow: 'hidden',
+    justifyContent: 'center',
+    borderRadius: 7,
+    backgroundColor: COLORS.white,
+    shadowColor: COLORS.black,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 5,
+    marginBottom: 12,
+  },
+  imageIconContainer: {
+    width: 20,
+    height: 20,
+    resizeMode: 'contain',
+  },
+  callContainer: {
+    backgroundColor: COLORS.orange,
+    borderRadius: 50,
+    padding: 12,
+    // height: 50, width: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: COLORS.orange,
+  },
+  chatContainer: {
+    borderWidth: 1,
+    borderColor: COLORS.black60,
+    marginLeft: 16,
+    backgroundColor: COLORS.white,
+    borderRadius: 50,
+    // height: 50, width: 50,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 12,
+  },
+  bannerImage: {
+    width: "100%",
+    height: "100%",
+    aspectRatio: 4 / 3,
+    borderRadius: 7,
+  },
+  bottomOfferDetailContainer: { 
+    height: "35%", 
+    width: "100%", 
+    alignItems: 'center', 
+    flexDirection: 'row' 
+  },
+  bottomOfferDetailBox: { 
+    height: '100%', width: "55%", 
+    justifyContent: 'space-between', 
+    paddingVertical: 15 
+  },
+  saleSpecialText: { 
+    fontSize: 20, 
+    color: COLORS.black, 
+    fontFamily: FONTS.bold, 
+  },
+  saleSpecialServiceName: { 
+    fontSize: 16, 
+    fontFamily: FONTS.medium, 
+    color: COLORS.brownishGrey, 
+  },
+  priceContainer: { 
+    width: "45%", 
+    height: '100%', 
+    paddingLeft: 15, 
+    alignItems: 'center', 
+    flexDirection: 'row', 
+    justifyContent: 'flex-end', 
+  },
+  actualPriceText: {
+    fontSize: 15, 
+    fontFamily: FONTS.bold, 
+    color: COLORS.brownishGrey, 
+    textDecorationLine: 'line-through',
+  },
+  salePriceText: { 
+    fontSize: 20, 
+    marginLeft: 5, 
+    color: COLORS.orange, 
+    fontFamily: FONTS.bold, 
+  },
+  infoContainer: {
+    position: 'absolute',
+  },
+  keyboardStyle: {
+    height: '100%',
+    width: '100%',
+  },
+  centeredView: {
+    flex: 1,
+    backgroundColor: COLORS.backgroundModal,
+    alignItems: 'flex-end',
+    justifyContent: 'center',
+    paddingHorizontal: 32,
+  },
+  modalView: {
+    width: '100%',
+    backgroundColor: COLORS.white,
+    shadowColor: COLORS.black,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+    height: '60%',
+    borderRadius: 20,
+  },
+  posHeader: {
+    padding: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: COLORS.whiteTwo,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  titleNewService: {
+    fontSize: 18,
+    fontFamily: FONTS.bold,
+  },
+  titleNewCenter: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  closeImage: {
+    width: 24,
+    height: 24,
+    resizeMode: 'contain',
+  },
+  rewardModalContainer: {
+    flexGrow: 1,
+    paddingBottom: 20,
+  },
+  paddingContentScroll: {
+    flex: 1,
+    paddingHorizontal: 16,
+    paddingBottom: 0,
+  },
+  paddingContentScrollInner: {
+    flex: 1,
+  },
+  rewardCard: {
+    borderBottomWidth: 1,
+    borderColor: COLORS.border,
+    borderRadius: 5,
+    width: '100%',
+    padding: 12,
+  },
+  firstName: {
+    fontSize: 16,
+    lineHeight: 24,
+    fontFamily: FONTS.medium,
+    textTransform: 'capitalize',
+  },
+  headerContainer: {
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  rewardBadgeContainer: {
+    position: 'absolute',
+    alignSelf: 'flex-end',
+  },
+  rewardBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    ...padding(12, 4, 12, 10),
+    borderRadius: 50,
+    backgroundColor: COLORS.white,
+    borderWidth: 1,
+    borderColor: COLORS.black60,
+    borderRightWidth: 0,
+    borderTopRightRadius: 0,
+    borderBottomRightRadius: 0,
+  },
+  listItemText: {
+    fontFamily: FONTS.medium,
+    color: COLORS.black,
+    fontSize: 14,
+    marginHorizontal: 4,
+  },
+  rowSpace: {
+    marginTop: 16,
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  titleValue: {
+    fontSize: 14,
+    lineHeight: 20,
+    color: COLORS.brownishGrey,
+    fontFamily: FONTS.book,
+  },
+  buttonBlock: {
+    paddingVertical: 8,
+    width: '50%',
+    marginRight: 20,
+    backgroundColor: COLORS.orangeRed
+  },
+  buttonBlocked: {
+    backgroundColor: COLORS.warmGrey,
+  },
+  textStatus: {
+    fontSize: 12,
+    fontFamily: FONTS.bold,
+  },
+});

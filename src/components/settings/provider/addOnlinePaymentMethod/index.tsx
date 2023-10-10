@@ -1,0 +1,1 @@
+export { OnlinePaymentMethodSetup } from './onlinePaymentMethodSetup';

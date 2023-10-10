@@ -1,0 +1,1 @@
+export { AddEditQuickPromotion } from "./addEditQuickPromotion";

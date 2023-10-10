@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "cwd": "babelrc",
+        "root": ["./src"],
+        "extensions": [".js", ".ios.js", ".android.js", ".ts", ".tsx", ".json"],
+        "alias": {
+          "src": "./src",
+          "assets": "./src/assets",
+          "components": "./src/components",
+          "containers": "./src/containers",
+          "routes": "./src/routes",
+          "utils": "./src/utils",
+          "shared": "./src/shared",
+          "store": "./src/store"
+        }
+      }
+    ]
+  ]
+}

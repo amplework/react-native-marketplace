@@ -1,0 +1,1 @@
+export { ClientLoyaltyReward } from './clientLoyaltyReward';

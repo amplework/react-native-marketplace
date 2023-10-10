@@ -1,0 +1,28 @@
+import { t, translations } from 'locales';
+
+export const LABELS = {
+  backTitle: t(translations.pickTimeslot.backTitle),
+  client: t(translations.pickTimeslot.client),
+  service: t(translations.pickTimeslot.service),
+  blocked: t(translations.pickTimeslot.blocked),
+  picked: t(translations.pickTimeslot.picked),
+  addTimeslot: t(translations.pickTimeslot.addTimeslot),
+  sTimeslot: t(translations.pickTimeslot.sTimeslot),
+  sTemplate: t(translations.pickTimeslot.sTemplate),
+  info: t(translations.pickTimeslot.info),
+  na: '',
+  timeStart: t(translations.pickTimeslot.timeStart),
+  timeEnd: t(translations.pickTimeslot.timeEnd),
+  confirm: t(translations.pickTimeslot.confirm),
+  warning: t(translations.pickTimeslot.warning),
+  cancel: t(translations.pickTimeslot.cancel),
+  saveTimeslot: t(translations.pickTimeslot.saveTimeslot),
+  pastNote: t(translations.pickTimeslot.pastNote),
+  lessEndNote: t(translations.pickTimeslot.lessEndNote),
+  available: t(translations.pickTimeslot.available),
+  selectTimeslot: t(translations.pickTimeslot.selectTimeslot),
+  placeholder: t(translations.pickTimeslot.placeholder),
+  dayOff: t(translations.pickTimeslot.dayOff),
+  noTimeslots: t(translations.pickTimeslot.noTimeslots),
+  unavailable: t(translations.pickTimeslot.unavailable),
+};

@@ -1,0 +1,1 @@
+export { CashJournalsReviewDetails } from './cashJournalsReviewDetails';

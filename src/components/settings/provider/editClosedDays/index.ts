@@ -1,0 +1,1 @@
+export { EditClosedDays } from './editClosedDays';

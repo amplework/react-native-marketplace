@@ -1,0 +1,1 @@
+export { LabeledIcon } from './labeledIcon';

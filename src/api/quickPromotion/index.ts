@@ -1,0 +1,1 @@
+export { QuickPromotionApi } from './quickPromotionApi';

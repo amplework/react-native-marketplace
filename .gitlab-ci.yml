@@ -1,0 +1,40 @@
+stages:
+  - test
+  - staging
+
+variables:
+  LC_ALL: "en_US.UTF-8"
+  LANG: "en_US.UTF-8"
+
+before_script:
+  - gem install bundler
+  - bundle install
+  - cd ios
+
+test_build:
+  dependencies: []
+  stage: test
+  artifacts:
+    paths:
+      - fastlane/logs
+  script:
+    - bundle exec fastlane test --env staging
+  tags:
+    - ios
+  only:
+    - /^release-.*$/
+    - test
+
+staging_build:
+  dependencies: []
+  stage: staging
+  artifacts:
+    paths:
+      - fastlane/logs
+  script:
+    - bundle exec fastlane staging --env production
+  tags:
+    - ios
+  only:
+    - /^release-.*$/
+    - staging

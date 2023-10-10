@@ -1,0 +1,1 @@
+export { WeeklyStatistics } from './weeklyStatistics';

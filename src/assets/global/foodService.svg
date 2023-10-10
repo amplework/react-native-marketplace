@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <linearGradient id="jg5x7wre9a" x1="50%" x2="50%" y1="100%" y2=".001%">
+            <stop offset="0%" stop-color="#1E64FF"/>
+            <stop offset="99.96%" stop-color="#00CCF0"/>
+        </linearGradient>
+        <linearGradient id="t1bf9uni6b" x1="50%" x2="50%" y1="100%" y2=".001%">
+            <stop offset="0%" stop-color="#1E64FF"/>
+            <stop offset="99.96%" stop-color="#00CCF0"/>
+        </linearGradient>
+        <linearGradient id="put7dtelvc" x1="50%" x2="50%" y1="100%" y2=".001%">
+            <stop offset="0%" stop-color="#1E64FF"/>
+            <stop offset="99.96%" stop-color="#00CCF0"/>
+        </linearGradient>
+        <linearGradient id="7dapgbr60d" x1="50%" x2="50%" y1="99.999%" y2="0%">
+            <stop offset="0%" stop-color="#EF5921"/>
+            <stop offset="100%" stop-color="#F6911D"/>
+        </linearGradient>
+        <linearGradient id="5agrxtf2ze" x1="50%" x2="50%" y1="99.999%" y2="0%">
+            <stop offset="0%" stop-color="#EF5921"/>
+            <stop offset="100%" stop-color="#F6911D"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g transform="translate(-286 -398) translate(0 198) translate(0 180) translate(20 20) translate(236) translate(30) translate(6)">
+                                    <path fill="url(#jg5x7wre9a)" d="M24 45.257h-1.665l-1.568-6.367H19.2l-1.567 6.367h-1.666c-1.273 0-2.253.98-2.253 2.253h12.54c0-1.273-.98-2.253-2.254-2.253z" opacity=".2"/>
+                                    <path fill="url(#t1bf9uni6b)" d="M32.914 22.139c-.881-2.253-1.371-4.702-1.371-7.053V8.522H8.424v6.564c0 2.449-.49 4.8-1.37 7.053-3.527 9.11 3.134 19.004 12.93 19.004s16.555-9.894 12.93-19.004z" opacity=".2"/>
+                                    <path fill="url(#put7dtelvc)" d="M29.976 22.629H9.992c-.098.195-.098.391-.196.587-1.372 3.429-.882 7.151 1.175 10.188 2.058 3.037 5.388 4.8 9.013 4.8 3.722 0 6.955-1.763 9.012-4.8 2.057-3.037 2.449-6.76 1.175-10.188-.098-.196-.098-.392-.195-.587z"/>
+                                    <circle cx="8.424" cy="8.522" r="8.033" fill="url(#7dapgbr60d)"/>
+                                    <path fill="url(#5agrxtf2ze)" d="M33.894 2.84c-.196-.489-.686-.783-1.176-.685l-8.62 2.547c-1.96.588-3.625 2.057-4.31 4.016l-4.898 13.91h2.057l4.702-13.322c.49-1.371 1.567-2.449 2.939-2.84l8.62-2.548c.49-.098.784-.587.686-1.077z"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

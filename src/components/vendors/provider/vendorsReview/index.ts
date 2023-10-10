@@ -1,0 +1,1 @@
+export { VendorsReview } from './vendorsReview';

@@ -1,0 +1,1 @@
+export { SearchQuestion } from './searchQuestion'

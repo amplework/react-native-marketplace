@@ -1,0 +1,1 @@
+export { QuickPromotion } from './quickPromotion';

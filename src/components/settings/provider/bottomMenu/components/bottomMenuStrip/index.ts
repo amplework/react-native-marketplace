@@ -1,0 +1,1 @@
+export { BottomMenuStrip } from './bottomMenuStrip';

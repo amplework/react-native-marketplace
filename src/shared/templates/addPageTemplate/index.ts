@@ -1,0 +1,1 @@
+export { AddPageTemplate } from './addPageTemplate';

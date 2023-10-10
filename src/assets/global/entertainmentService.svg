@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <linearGradient id="29svprdm8a" x1="50%" x2="50%" y1="99.999%" y2="0%">
+            <stop offset="0%" stop-color="#EF5921"/>
+            <stop offset="100%" stop-color="#F6911D"/>
+        </linearGradient>
+        <linearGradient id="gk3s0s47lb" x1="50%" x2="50%" y1="100%" y2=".001%">
+            <stop offset="0%" stop-color="#1E64FF"/>
+            <stop offset="99.96%" stop-color="#00CCF0"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g>
+                                <g>
+                                    <path fill="#F2F2F2" fill-rule="nonzero" d="M8.553 9.855L8.553 35.513 12.655 35.513 12.655 16.138 25.571 11.425 25.571 24.865 29.673 24.865 29.673 2.087z" transform="translate(-286 -528) translate(0 198) translate(0 180) translate(20 20) translate(236 130) translate(30) translate(0 1)"/>
+                                    <path fill="url(#29svprdm8a)" d="M29.673.087v22.778c0 3.519-2.853 6.371-6.371 6.371-3.519 0-6.371-2.852-6.371-6.37 0-3.52 2.852-6.371 6.37-6.371.8 0 1.565.147 2.27.416V9.425l-12.916 4.713V32.46c.057.343.087.694.087 1.053 0 3.518-2.853 6.37-6.371 6.37-3.519 0-6.371-2.852-6.371-6.37 0-3.519 2.852-6.371 6.37-6.371.767 0 1.502.135 2.183.383V7.855L29.673.087z" transform="translate(-286 -528) translate(0 198) translate(0 180) translate(20 20) translate(236 130) translate(30) translate(0 1)"/>
+                                    <path fill="url(#gk3s0s47lb)" d="M41.455 15.615s.087 6.981 6.545 6.807v4.189s-.064-.003-.181-.013l-.165-.015c-1.162-.113-4.948-.637-6.636-2.765v14.313c0 3.133-2.54 5.673-5.673 5.673s-5.672-2.54-5.672-5.673 2.54-5.673 5.672-5.673c.74 0 1.447.142 2.096.4l-.001-17.243z" transform="translate(-286 -528) translate(0 198) translate(0 180) translate(20 20) translate(236 130) translate(30) translate(0 1)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

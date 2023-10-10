@@ -1,0 +1,1 @@
+export { ScheduleBadge } from './scheduleBadge';

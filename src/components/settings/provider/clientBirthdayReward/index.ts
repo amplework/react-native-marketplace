@@ -1,0 +1,1 @@
+export { ClientBirthdayReward } from './clientBirthdayReward';
